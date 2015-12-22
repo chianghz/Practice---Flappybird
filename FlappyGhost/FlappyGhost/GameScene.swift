@@ -32,7 +32,7 @@ class GameScene: SKScene {
         
         // Set Ground Attribute
         
-        Ground = SKSpriteNode(imageNamed: "Ground")
+        Ground = SKSpriteNode(imageNamed: "Ground.png")
         Ground.setScale(0.5)
         Ground.position = CGPoint(x: self.frame.width/2 , y: 0 + Ground.frame.height/2)
         
@@ -50,7 +50,7 @@ class GameScene: SKScene {
         
         // Set Ghost Attribute
         
-        Ghost = SKSpriteNode(imageNamed: "Ghost")
+        Ghost = SKSpriteNode(imageNamed: "Ghost.png")
         Ghost.size = CGSize(width: 60, height: 70)
         Ghost.position = CGPoint(x: self.frame.width/2 - Ghost.frame.width, y: self.frame.height/2)
         
@@ -110,8 +110,8 @@ class GameScene: SKScene {
         
         wallPair = SKNode()
         
-        let topWall = SKSpriteNode(imageNamed: "Wall")
-        let btmWall = SKSpriteNode(imageNamed: "Wall")
+        let topWall = SKSpriteNode(imageNamed: "Wall.png")
+        let btmWall = SKSpriteNode(imageNamed: "Wall.png")
         
         topWall.position = CGPoint(x: self.frame.width, y: self.frame.height/2 + 350 )
         btmWall.position = CGPoint(x: self.frame.width, y: self.frame.height/2 - 350 )
