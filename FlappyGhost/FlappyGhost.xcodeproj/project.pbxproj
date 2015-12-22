@@ -17,6 +17,9 @@
 		0AECE8AB1C2905C800E2F5C8 /* FlappyGhostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECE8AA1C2905C800E2F5C8 /* FlappyGhostTests.swift */; };
 		0AECE8B61C2905C800E2F5C8 /* FlappyGhostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECE8B51C2905C800E2F5C8 /* FlappyGhostUITests.swift */; };
 		0AECE8C41C29067A00E2F5C8 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECE8C31C29067A00E2F5C8 /* Random.swift */; };
+		0AECE9061C295BD000E2F5C8 /* Ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECE9031C295BD000E2F5C8 /* Ghost.png */; };
+		0AECE9071C295BD000E2F5C8 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECE9041C295BD000E2F5C8 /* Ground.png */; };
+		0AECE9081C295BD000E2F5C8 /* Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECE9051C295BD000E2F5C8 /* Wall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		0AECE8B51C2905C800E2F5C8 /* FlappyGhostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyGhostUITests.swift; sourceTree = "<group>"; };
 		0AECE8B71C2905C800E2F5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AECE8C31C29067A00E2F5C8 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		0AECE9031C295BD000E2F5C8 /* Ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghost.png; sourceTree = "<group>"; };
+		0AECE9041C295BD000E2F5C8 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
+		0AECE9051C295BD000E2F5C8 /* Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				0AECE8C31C29067A00E2F5C8 /* Random.swift */,
 				0AECE8991C2905C800E2F5C8 /* Main.storyboard */,
 				0AECE89C1C2905C800E2F5C8 /* Assets.xcassets */,
+				0AECE9031C295BD000E2F5C8 /* Ghost.png */,
+				0AECE9041C295BD000E2F5C8 /* Ground.png */,
+				0AECE9051C295BD000E2F5C8 /* Wall.png */,
 				0AECE89E1C2905C800E2F5C8 /* LaunchScreen.storyboard */,
 				0AECE8A11C2905C800E2F5C8 /* Info.plist */,
 			);
@@ -241,6 +250,9 @@
 				0AECE8941C2905C800E2F5C8 /* GameScene.sks in Resources */,
 				0AECE8A01C2905C800E2F5C8 /* LaunchScreen.storyboard in Resources */,
 				0AECE89D1C2905C800E2F5C8 /* Assets.xcassets in Resources */,
+				0AECE9081C295BD000E2F5C8 /* Wall.png in Resources */,
+				0AECE9061C295BD000E2F5C8 /* Ghost.png in Resources */,
+				0AECE9071C295BD000E2F5C8 /* Ground.png in Resources */,
 				0AECE89B1C2905C800E2F5C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				0AECE8BC1C2905C800E2F5C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AECE8BD1C2905C800E2F5C8 /* Build configuration list for PBXNativeTarget "FlappyGhostTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				0AECE8BF1C2905C800E2F5C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AECE8C01C2905C800E2F5C8 /* Build configuration list for PBXNativeTarget "FlappyGhostUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				0AECE8C21C2905C800E2F5C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
